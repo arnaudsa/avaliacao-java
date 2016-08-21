@@ -29,6 +29,7 @@ Avalie bem o fluxo que adicionar item no carrinho. Analise:
 * O código deve ser o mais simples e limpo possível, lembre-se que quase sempre nosso dia-a-dia é manutenção.
 * Fique a vontade refatore o quanto você avaliar necessário.
 
+<code>
 {
 	"cartId": "",
 	"q": "1",
@@ -37,3 +38,4 @@ Avalie bem o fluxo que adicionar item no carrinho. Analise:
 	"brand": "DELL",
 	"price": "2600.00"
 }
+</code>
