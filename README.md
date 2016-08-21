@@ -28,3 +28,12 @@ Avalie bem o fluxo que adicionar item no carrinho. Analise:
 * Cobrir o código de negócio com testes p/ aumentar a agilidade de evolução, além de trazer uma certa visão de impacto na evolução do código;
 * O código deve ser o mais simples e limpo possível, lembre-se que quase sempre nosso dia-a-dia é manutenção.
 * Fique a vontade refatore o quanto você avaliar necessário.
+
+{
+	"cartId": "",
+	"q": "1",
+	"codeProduct": "abc123",
+	"nameProduct": "Notebook Core I7",
+	"brand": "DELL",
+	"price": "2600.00"
+}
