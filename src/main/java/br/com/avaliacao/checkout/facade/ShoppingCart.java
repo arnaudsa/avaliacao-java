@@ -26,6 +26,11 @@ public class ShoppingCart {
 	@Autowired
     private CartDBInMemory cartDB;
     
+	
+	public Cart findOne(String cartId) {
+		return cartDB.findOne(cartId);
+	}
+	
     public Cart addItem(CartTO to) throws CartInvalidException {
 		
     	findCart(to);    	    	
