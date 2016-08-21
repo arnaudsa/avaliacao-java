@@ -29,6 +29,9 @@ Avalie bem o fluxo que adicionar item no carrinho. Analise:
 * O código deve ser o mais simples e limpo possível, lembre-se que quase sempre nosso dia-a-dia é manutenção.
 * Fique a vontade refatore o quanto você avaliar necessário.
 
+### EndPoint:
+http://localhost:8080/cart/adicionar
+
 ### JSON para adicionar itens ao carrinho:
 <code>
 {
