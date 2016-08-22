@@ -1,5 +1,7 @@
 package br.com.avaliacao.checkout.db;
 
+import static br.com.avaliacao.checkout.constants.Constants.CART_INVALID;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -17,7 +19,12 @@ public class CartDBInMemory {
     private static Map<String, Cart> carts = new HashMap<>();
 
     public Cart save(Cart cart) {
-        carts.put(cart.getCartId(), cart);
+        
+    	if (cart == null) {
+			throw new IllegalArgumentException(CART_INVALID);
+		}
+    	
+    	carts.put(cart.getCartId(), cart);
         return cart;
     }
 

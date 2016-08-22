@@ -8,6 +8,8 @@ public class Constants {
 
 	public static final String CART_ACCOMPLISHED = "Cart accomplished.";
 	
+	public static final String CART_INVALID = "Cart invalid.";
+	
 	public static final String ITEM_ALREADY_EXISTS = "Item already exists.";
 
 	public static final String ERRO_INESPERADO = "Ocorreu um erro inesperado.";
