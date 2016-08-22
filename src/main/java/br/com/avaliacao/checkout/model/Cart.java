@@ -25,7 +25,7 @@ public class Cart {
         this.cartId = cartId;
     }
 
-    public void setItems(final ArrayList<CartItem> items) {
+    public void setItems(final List<CartItem> items) {
         this.items = items;
     }
 

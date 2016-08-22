@@ -22,7 +22,7 @@ public class CartItemMock extends MockGenerator<CartItem> {
 	@Override
 	public void assertMock(CartItem cartItem) {
 		Assert.assertNotNull(cartItem);
-		Assert.assertNotEquals(QUANTITY, cartItem.getQuantity());		
+		Assert.assertEquals(QUANTITY, cartItem.getQuantity());		
 	}
 
 }

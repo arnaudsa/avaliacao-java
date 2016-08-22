@@ -33,6 +33,9 @@ public class MessageErrorTO extends TO {
 
 	public void setMensagens(final List<String> mensagens) {
 		this.mensagens = mensagens;
+		if (mensagens == null) {
+			this.mensagens = new ArrayList<>();
+		}
 	}
 
 	public String firstMessage() {
