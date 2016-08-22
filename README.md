@@ -33,7 +33,7 @@ Avalie bem o fluxo que adicionar item no carrinho. Analise:
 http://localhost:8080/cart/adicionar
 
 ### JSON para adicionar itens ao carrinho:
-<code>
+`
 {
 	"cartId": "",
 	"q": "1",
@@ -42,4 +42,4 @@ http://localhost:8080/cart/adicionar
 	"brand": "DELL",
 	"price": "2600.00"
 }
-</code>
+`
