@@ -30,8 +30,8 @@ Avalie bem o fluxo que adicionar item no carrinho. Analise:
 * Fique a vontade refatore o quanto você avaliar necessário.
 
 ### EndPoint:
-http://localhost:8080/cart/adicionar
-http://localhost:8080/cart/{cartID}   - consultar carrinho
+* http://localhost:8080/cart/adicionar
+* http://localhost:8080/cart/{cartID}   - consultar carrinho
 
 ### JSON para adicionar itens ao carrinho:
 `
